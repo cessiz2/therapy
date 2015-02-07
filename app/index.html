@@ -1,14 +1,15 @@
-<!DOCTYPE html>
+
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
 
-      <link href="styles/vendor/bootstrap.min.css" rel="stylesheet">
-        <link href="styles/vendor/ripples.min.css" rel="stylesheet">
-        <link href="styles/vendor/material-wfont.min.css" rel="stylesheet">
+    <link href="styles/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/vendor/ripples.min.css" rel="stylesheet">
+    <link href="styles/vendor/material-wfont.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,40 +17,77 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-     <!-- Your site -->
+</head>
 
-        <h1>You can add your site here. dfgdgdfg</h1>
+<body>
+    <!-- Your site -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  Ganesha Massage Clinic
+                </a>
+            </div>
 
-        <h2>To ensure that material-design theme is working, check out the buttons below.</h2>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Massage</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-        <h3 id="basic-waypoint" class="text-muted">If you can see the ripple effect on clicking them, then you are good to go!</h3>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Grayscale</h1>
+                        <p class="intro-text">Ganesha Massage Clinic offers several different types of massage, each with their own unique styles and benefits.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-        <h3 id="basic-waypoint" class="text-muted">If you can see the ripple effect on clicking them, then you are good to go!</h3>
-        <p class="bs-component">
-            <a href="javascript:void(0)" class="btn btn-default">Default</a>
-            <a href="javascript:void(0)" class="btn btn-primary">Primary</a>
-            <a href="javascript:void(0)" class="btn btn-success">Success</a>
-            <a href="javascript:void(0)" class="btn btn-info">Info</a>
-            <a href="javascript:void(0)" class="btn btn-warning">Warning</a>
-            <a href="javascript:void(0)" class="btn btn-danger">Danger</a>
-            <a href="javascript:void(0)" class="btn btn-link">Link</a>
-        </p>
 
-        <!-- Your site ends -->
+    <!-- Your site ends -->
 
-        <script src="scripts/vendor/jquery.min.js"></script>
-        <script src="scripts/vendor/bootstrap.min.js"></script>
+    <script src="scripts/vendor/jquery.min.js"></script>
+    <script src="scripts/vendor/bootstrap.min.js"></script>
 
-        <script src="scripts/vendor/ripples.min.js"></script>
-        <script src="scripts/vendor/material.min.js"></script>
-        <script src="scripts/vendor/jquery.waypoints.min.js"></script>
-        <script src="scripts/vendor/production.js"></script>
-        <script>
-            $(document).ready(function() {
-                $.material.init();
-            });
-        </script>
-  </body>
+    <script src="scripts/vendor/ripples.min.js"></script>
+    <script src="scripts/vendor/material.min.js"></script>
+    <script src="scripts/vendor/jquery.waypoints.min.js"></script>
+    <script src="scripts/vendor/production.js"></script>
+    <script>
+    $(document).ready(function() {
+        $.material.init();
+    });
+    </script>
+</body>
+
 </html>
